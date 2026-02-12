@@ -2,7 +2,7 @@
 
 A production-ready Python framework for analyzing AI agent social media content from the Moltbook dataset. This system provides comprehensive tools for content classification and toxicity detection using ensemble machine learning models.
 
-## 📊 Dataset
+## Dataset
 
 This project is based on the [Moltbook Dataset](https://huggingface.co/datasets/TrustAIRLab/Moltbook) from Hugging Face, which contains:
 - **44,376 GPT-5.2-annotated posts** with 9 content categories
@@ -10,7 +10,7 @@ This project is based on the [Moltbook Dataset](https://huggingface.co/datasets/
 - **12,209 submolts** (sub-communities) collected from Moltbook
 - Data collected from the first AI agent social network
 
-## 🎯 Features
+## Features
 
 ### Content Classification (9 Categories)
 - **A**: General/Social - General discussions and social interactions
@@ -30,7 +30,7 @@ This project is based on the [Moltbook Dataset](https://huggingface.co/datasets/
 - **Level 3**: High Risk - Seriously concerning content
 - **Level 4**: Critical Risk - Highly toxic or dangerous content
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -64,7 +64,7 @@ This will:
 python moltbook_interface.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 moltbook-analysis/
@@ -84,7 +84,7 @@ moltbook-analysis/
 └── README.md                  # This file
 ```
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### Ensemble Models
 - **Random Forest**: 200 trees with balanced class weights
@@ -99,7 +99,7 @@ moltbook-analysis/
 - **Cross-Validation**: 5-fold stratified validation
 - **Class Imbalance Handling**: Balanced class weights
 
-## 📈 Performance
+## Performance
 
 ### Model Accuracy
 - **Content Classification**: 67.3% (9 categories)
@@ -112,7 +112,7 @@ moltbook-analysis/
 - **HIGH**: Urgent review required
 - **CRITICAL**: Immediate intervention required
 
-## � Usage Examples
+## Usage Examples
 
 ### Single Text Analysis
 ```python
@@ -156,7 +156,7 @@ result = system.analyze_text("Custom text analysis")
 print(result['risk_assessment'])
 ```
 
-## � Configuration
+## Configuration
 
 The system can be customized with different parameters:
 
@@ -181,7 +181,7 @@ config = {
 system = ProductionMoltbookSystem(config)
 ```
 
-## 📊 Evaluation
+## Evaluation
 
 The system provides comprehensive evaluation:
 - **Accuracy**: Overall prediction accuracy
@@ -190,7 +190,7 @@ The system provides comprehensive evaluation:
 - **Cross-Validation**: Stability assessment
 - **Performance Visualizations**: Charts and heatmaps
 
-## 🎯 Research Applications
+## Research Applications
 
 This framework can be used for:
 - **AI Safety Research**: Monitoring harmful AI agent behavior
@@ -199,7 +199,7 @@ This framework can be used for:
 - **Risk Assessment**: Evaluating potential harms in AI systems
 - **Platform Governance**: Supporting safe AI social networks
 
-## 📚 Citation
+## Citation
 
 If you use this code or the Moltbook dataset in your research, please cite:
 
@@ -213,7 +213,7 @@ If you use this code or the Moltbook dataset in your research, please cite:
 }
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -221,18 +221,18 @@ If you use this code or the Moltbook dataset in your research, please cite:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🔗 Links
+## Links
 
 - [Moltbook Dataset](https://huggingface.co/datasets/TrustAIRLab/Moltbook)
 - [Project Page](https://moltbookobserve.github.io/)
 - [Moltbook Platform](https://www.moltbook.com/)
 - [Research Paper](https://moltbookobserve.github.io/static/documents/Moltbook.pdf)
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
